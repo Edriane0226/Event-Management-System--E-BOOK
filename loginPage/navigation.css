@@ -1,0 +1,76 @@
+.navBar{
+    background-color: transparent;
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+button{
+    height: 30px;
+    border-radius: 6px;
+}
+button a{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.loginBox{
+    background-color: transparent;
+    border-radius: 50px;
+    height: 400px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 520px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(223, 223, 223), -2px -2px 5px rgb(223, 223, 223);
+}
+.header header{
+    font-family: sans-serif;
+    font-size: 30px;
+
+    margin-bottom: 30px;
+}
+.inputFld input{
+    height: 40px;
+    width: 350px;
+    display: flex;
+    border-radius: 100px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+.forgotPass{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+.submitBtn{
+    width:  300px;
+    margin-bottom: 20px;
+}
+body{
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
